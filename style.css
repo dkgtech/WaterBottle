@@ -354,6 +354,73 @@ input:focus {
   border-bottom-right-radius: 10px;
 }
 
+.footer .footer_main .footer_links {
+  width: 100vw;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  /* border: 1px solid red; */
+}
+
+.footer .footer_main .footer_links .footer_left {
+}
+
+.footer .footer_main .footer_links .footer_left p {
+  margin-top: 10px;
+  color: gray;
+}
+
+.footer .footer_main .footer_links .footer_middle {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  text-align: start;
+}
+
+.footer .footer_main .footer_links .footer_middle li {
+  list-style: none;
+}
+
+.footer .footer_main .footer_links .footer_middle a {
+  text-decoration: none;
+}
+
+.footer .footer_main .footer_links .footer_centre {
+  display: flex;
+  gap: 5px;
+  text-align: start;
+  flex-direction: column;
+}
+
+.footer .footer_main .footer_links .footer_centre li {
+  list-style: none;
+}
+
+.footer .footer_main .footer_links .footer_centre a {
+  text-decoration: none;
+}
+
+.footer .footer_main .footer_links .footer_right {
+  text-align: start;
+}
+
+.footer .footer_main .footer_links .footer_right .social_links {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer .footer_main .footer_links .footer_right .social_links li {
+  list-style: none;
+}
+
+.footer .footer_main .footer_links .footer_right .social_links li a {
+  text-decoration: none;
+}
+
 .copyright {
   width: 100vw;
   height: 5vh;
@@ -367,20 +434,20 @@ input:focus {
 /* scroll button */
 
 #scrollTopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: var(--dark_yello_color);
-    color: white;
-    border: none;
-    padding: 12px 18px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none; /* Hidden by default */
-    transition: opacity 0.3s;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--dark_yello_color);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  transition: opacity 0.3s;
 }
 
 #scrollTopBtn:hover {
-    background-color:var(--dark_yello_color);
+  background-color: var(--dark_yello_color);
 }

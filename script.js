@@ -12,3 +12,7 @@ window.onscroll = function () {
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
+function toggleMenu() {
+    document.querySelector(".nav_links").classList.toggle("active");
+}
